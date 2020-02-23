@@ -1,0 +1,23 @@
+{
+    "model_name": "squeezenet_3d",
+    "pretrained_path": "./bin/squeezenet.pth",
+    "train_data_folder": "../jester_new",
+    "val_data_folder": "../jester_new",
+    "train_data_csv": "./annotation/train.csv",
+    "val_data_csv": "./annotation/val.csv",
+    "labels_csv": "./annotation/label.csv",
+    "shuffle": false,
+    "num_workers": 1,
+    "output_dir": "./train/result",
+    "num_classes": 15,
+    "batch_size": 10,
+    "clip_size": 18,
+    "nclips": 1,
+    "step_size": 2,
+    "learning_rate": 0.001,
+    "last_lr": 0.00001,
+    "momentum": 0.9,
+    "weight_decay": 0.00001,
+    "num_epochs": 50,
+    "print_freq": 1
+}
